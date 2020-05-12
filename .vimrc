@@ -12,7 +12,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'vim-python/python-syntax'
-Plugin 'morhetz/gruvbox'
+"Plugin 'morhetz/gruvbox'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'tpope/vim-surround' 
 call vundle#end()            " required
@@ -43,6 +43,8 @@ nmap <F6> :NERDTreeToggle<CR>
 let g:python_highlight_all = 1
 let g:python_highlight_space_errors = 0
 let g:python_highlight_doctests = 0
+
+"colorscheme nord
 
 colorscheme gruvbox
 let g:gruvbox_italic = 1
